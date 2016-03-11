@@ -1,0 +1,36 @@
+
+img {
+    float: left;
+}
+
+.paragraphs {
+    display: inline;
+    position: absolute;
+    float: right;
+    margin-left: 5%;
+}
+
+.first-col {
+    border: 1px solid black;
+}
+
+.second-col {
+    border: 1px solid black;
+    float: right;
+}
+
+@media only screen and (min-width: 300px)  {
+
+    #main-div div {
+        margin-top: 1%;
+    }
+
+}
+
+.first-col, .second-col {
+    border: 1px solid #c0c0c0;
+    padding: 1%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    border-radius: 2%;
+}

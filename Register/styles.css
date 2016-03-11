@@ -1,0 +1,19 @@
+#reg-form {
+    border: 1px solid #c0c0c0;
+    padding: 0 5% 5% 5%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    border-radius: 2%;
+}
+
+button {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1280px)  {
+
+    #reg-form {
+        margin-left: 25%;
+    }
+
+}
